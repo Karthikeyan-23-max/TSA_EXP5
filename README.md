@@ -20,7 +20,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from statsmodels.tsa.seasonal import seasonal_decompose
 
-data = pd.read_csv('/mnt/data/AirPassengers.csv',
+data = pd.read_csv('AirPassengers.csv',
                    parse_dates=['Month'],
                    index_col='Month')
 
